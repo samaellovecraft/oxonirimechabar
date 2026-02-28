@@ -2,9 +2,10 @@
 	"include": [
 		"~/.config/waybar/modules/*.jsonc",
 		"~/.config/waybar/modules/custom/*.jsonc",
-		"~/.config/waybar/modules/hyprland/*.jsonc"
+		"~/.config/waybar/modules/niri/*.jsonc"
 
 		// modules that are not included by default:
+		// "~/.config/waybar/modules/hyprland/*.jsonc"
 		// "~/.config/waybar/modules/extras/*.jsonc"
 	],
 
@@ -15,12 +16,12 @@
 	"modules-left": [
 		"group/user",
 		"custom/left_div#1",
-		"hyprland/workspaces",
+		"niri/workspaces",
 		"custom/right_div#1",
-		"hyprland/window"
+		"niri/window"
 	],
 	"modules-center": [
-		"hyprland/language",
+		"niri/language",
 		"custom/left_div#2",
 		"temperature",
 		"custom/left_div#3",
