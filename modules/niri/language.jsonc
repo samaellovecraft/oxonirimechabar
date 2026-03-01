@@ -1,14 +1,15 @@
+// Reference:	https://github.com/Alexays/Waybar/wiki/Module:-Language
+// Waybar docs:	https://github.com/Alexays/Waybar/wiki/Module:-Niri#language
+// Niri docs:	https://niri-wm.github.io/niri/Configuration:-Key-Bindings#actions
 {
 	"niri/language": {
-		// "format":
-		// "format-<lang>":
-		"format-en": " en"
-		// "keyboard-name":
-		// "min-length":
-		// "max-length":
-		// "menu":
-		// "menu-file":
-		// "menu-actions":
-		// "expand":
+		"format": "{shortDescription}",
+		"tooltip-format": "{long}", // probably not implemented
+		"on-click": "niri msg action switch-layout next",
+		"on-click-right": "niri msg action switch-layout prev" 
+		// ? "format-<lang>": "an alternative name to display per language"
+		// "format-en": "default",
+		// "format-ru": "ru",
+		// "format-uk": "Slava Ukraini!"
 	}
 }
