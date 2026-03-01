@@ -35,10 +35,11 @@ button:hover {
 }
 
 tooltip {
+	background: transparent;
+}
+tooltip label {
+	background-color: @main-bg;
 	border: 2px solid @main-br;
 	border-radius: 10px;
-	background-color: @main-bg;
-}
-tooltip > box {
-	padding: 0 6px;
+	padding: 6px 9px;
 }
